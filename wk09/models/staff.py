@@ -1,0 +1,7 @@
+from models.person import person 
+class staff(person) :
+    def __init__(self,pid,name,age,staff_id):
+        super().__init__(pid,name,age)
+        self.staff_id = staff_id
+    def __str__(self):
+        return f"Staff_ID :{self.staff_id_id}, Name: {self.name}, Age: {self.age}"
