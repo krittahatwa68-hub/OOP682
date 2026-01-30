@@ -16,7 +16,7 @@ def get_person_info(person):
 get_person_info(student)  # Returns "Name: Alice, Age: 20"
 get_person_info(staff)    # Returns "Name: Bob, Age: 35"    
 
-class Employee:
+class Employee: 
     pass
 
 manager = Employee()
