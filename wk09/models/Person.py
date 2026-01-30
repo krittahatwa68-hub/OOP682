@@ -1,4 +1,4 @@
-class Person :
+class person :
     def __init__(self,pid,name,age):
         self.pid = pid
         self.name = name 

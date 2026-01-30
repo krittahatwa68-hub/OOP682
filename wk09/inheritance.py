@@ -1,6 +1,6 @@
 from models.person import Person
 from models.staff import Staff
-from models.student import Student
+from models.Student import Student
 
 person = Person(1234567890123, "John Doe", 30)
 student = Student(1234567890123, "Alice", 20, "S123")
