@@ -8,6 +8,6 @@ if __name__ == "__main__":
     source = SourceFactory.create_source("csv") 
     window = MainWindow(source)
     window.resize(400, 300)
-    window.show()
+    window.show() 
 
     sys.exit(app.exec())

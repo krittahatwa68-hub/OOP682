@@ -7,7 +7,7 @@ class CsvLogSource(ILogSource):
         self.filepath = filepath
 
     def get_logs(self) -> List[str]:
-        logs = []
+        logs = [] 
         try:
             with open(self.filepath, mode='r', encoding='utf-8') as file:
                 csv_reader = csv.reader(file)

@@ -7,4 +7,4 @@ class MockLogSource(ILogSource):
             "[INFO] System started",
             "[WARN] Memory usage high",
             "[ERROR] Connection lost"
-        ]
+        ] 

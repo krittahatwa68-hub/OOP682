@@ -21,7 +21,7 @@ class NoFilter(IFilterStrategy):
 class MainWindow(QMainWindow):
     def __init__(self, source: ILogSource):
         super().__init__()
-        self.source = source 
+        self.source = source  
         self.filter_strategy = NoFilter() 
         self.init_ui()
 

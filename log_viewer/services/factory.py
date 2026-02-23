@@ -10,7 +10,7 @@ class SourceFactory:
             return FileLogSource("app.log")
         elif source_type == "mock":
             return MockLogSource()
-        elif source_type == "csv":          
+        elif source_type == "csv":           
             return CsvLogSource("app.csv")
         else:
             raise ValueError("Unknown type")
